@@ -658,7 +658,7 @@ body{background:#fff9fb!important;color:var(--new-ink)!important}
 
 <script>
 // Replace this with the NEW Google Apps Script Web App URL ending in /exec.
-const GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbxO1keEO0hQgs36ChS5TugKhbkvyND2sTCCR_kygzAX_urPvrvENv-33Qaog9bf1kwPiw/exec";
+const GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbzJaQxX-E1bQ3ip85mUcvWkK46_RZ0i1IThqiSzGdcB_dXBy3s-FSFTbfCWiwJj-n8k/exec";
 
 document.getElementById('orderForm').addEventListener('submit', async function(e){
   e.preventDefault();
@@ -935,7 +935,7 @@ document.addEventListener('click', function(e) {
       soldEl.textContent=String(sold);
       viewerEl.textContent=String(viewers);
     }
-    setInterval(update,4500);
+    setInterval(update,1800);
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',startActivityCounters);else startActivityCounters();
 })();
